@@ -9,24 +9,29 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "About Me",
-        "groups": [
+        "group": "About Me",
+        "pages": [
           {
             "group": "Resume",
             "pages": [
-              "about-me/resume/summary",
+              "about-me/resume/summary-1",
               "about-me/resume/professional-experience",
               "about-me/resume/technical-skills-and-core-competencies",
-              "index",
-              "quickstart"
+              "index"
+            ]
+          },
+          {
+            "group": "More Info",
+            "pages": [
+              "about-me/resume/summary",
+              "more-info/untitled-page",
+              "quickstart",
+              "about-me/more-info/why-i-succeeded"
             ]
           }
         ]
-      },
-      {
-        "tab": "Contact Info"
       }
     ]
   },
